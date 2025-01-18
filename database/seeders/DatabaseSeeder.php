@@ -5,6 +5,10 @@ namespace Database\Seeders;
 use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use App\Models\Category;
+use App\Models\Payment;
+use App\Models\Course;
+use App\Models\Order;
 
 class DatabaseSeeder extends Seeder
 {
@@ -15,9 +19,14 @@ class DatabaseSeeder extends Seeder
     {
         // User::factory(10)->create();
 
-        User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
-        ]);
+       // User::factory()->create([
+           // 'name' => 'Test User',
+           // 'email' => 'test@example.com',
+        //]);
+        Category::Factory(10)->create();
+        Payment::Factory(10)->create();
+        Course::Factory(10)->create();
+        Order::Factory(10)->create();
+
     }
 }
