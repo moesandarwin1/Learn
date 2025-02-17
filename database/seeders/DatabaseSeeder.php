@@ -8,7 +8,14 @@ use Illuminate\Database\Seeder;
 use App\Models\Category;
 use App\Models\Payment;
 use App\Models\Course;
-use App\Models\Order;
+use App\Models\Chapter;
+use App\Models\Lecture;
+use App\Models\Enroll;
+
+use Illuminate\Support\Facades\Hash;
+
+
+
 
 class DatabaseSeeder extends Seeder
 {
@@ -26,7 +33,18 @@ class DatabaseSeeder extends Seeder
         Category::Factory(10)->create();
         Payment::Factory(10)->create();
         Course::Factory(10)->create();
-        Order::Factory(10)->create();
+        Chapter::Factory(10)->create();
+        Lecture::Factory(10)->create();
+        Enroll::Factory(10)->create();
 
+
+        User::create([
+            'name' => 'Super Admin',
+            'phone' => '09881234567',
+            'address' => 'Monywa',
+            'email' => 'superadmin@gmail.com',
+            'password' => Hash::make('123456789'),
+            'role' => 'Super Admin',
+        ]);
     }
 }

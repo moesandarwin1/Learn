@@ -23,8 +23,8 @@
                             <span class="pe-5 custom"><i class="fas fa-newspaper text-primary me-2" style="font-size:11px"></i> 2 Chapters</span>
                             <span class="ps-3 custom"><i class="fas fa-video me-2 text-primary" style="font-size:11px"></i>6 Lectures</span>
                     </p>
-                    <a href="" class="btn btn-outline-primary btn-sm me-2 mb-3"><i class="fas fa-eye me-2"></i>Detail</a>
-                    <a href="" class="btn btn-outline-warning btn-sm me-2 mb-3"><i class="fas fa-pen me-2"></i>Edit</a>
+                    <a href="{{route('backend.courses.show', ['course' => $course->id])}}" class="btn btn-outline-primary btn-sm me-2 mb-3"><i class="fas fa-eye me-2"></i>Detail</a>
+                    <a href="{{route('backend.courses.edit', $course->id)}}" class="btn btn-outline-warning btn-sm me-2 mb-3"><i class="fas fa-pen me-2"></i>Edit</a>
                     <button type="button" class="btn btn-outline-danger btn-sm mb-3 delete"  data-id="{{$course->id}}"><i class="fas fa-solid fa-trash me-2"></i>Delete</button>
                 </div>
             </div>

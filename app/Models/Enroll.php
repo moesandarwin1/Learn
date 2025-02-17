@@ -1,24 +1,24 @@
 <?php
 
 namespace App\Models;
-
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\softDeletes;
 
 
-class Order extends Model
+use Illuminate\Database\Eloquent\Model;
+
+class Enroll extends Model
 {
     use HasFactory;
     use softDeletes;
-    protected $table='orders';
+    protected $table='enrolls';
     protected $fillable=[
-        'name',
-        'email',
-        'phone',
-        'payment_slip',
-        'course_id',
-        'payment_id'
+      'name',
+      'phone',
+      'image',
+      'status',
+      'course_id',
+      'payment_id',
         
     ];
 }

@@ -51,12 +51,43 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="{{route('index')}}" class="nav-item nav-link active">Home</a>
+                <a href="{{route('index')}}" class="nav-item nav-link">Home</a>
                 <a href="{{route('about')}}" class="nav-item nav-link">About</a>
                 <a href="{{route('courses')}}" class="nav-item nav-link">Courses</a>
                 <a href="{{route('contact')}}" class="nav-item nav-link">Contact</a>
-                <a href="login..html" class="nav-item nav-link">Login</a>
-                <a href="register.html" class="nav-item nav-link">Register</a>
+                
+                @guest
+                    <a href="/login" class="btn mx-3">Login</a>
+                    <a href="/register" class="btn btn-dark">Register</a>
+                @else
+                    <div class="dropdown mx-3">
+                        <a href="#" class="text-decoration-none text-dark dropdown-toggle" data-bs-toggle="dropdown">
+                            {{Auth::user()->name}}
+                        </a>
+                        <ul class="dropdown-menu">
+                            @if(Auth::user()->role == 'User')
+                                <li>
+                                    <a href="" class="dropdown-item">profile</a>
+                                </li>
+                            @else
+                                <li>
+                                    <a href="{{route('backend.dashboard')}}" class="dropdown-item">Admin Pannel</a>
+                                </li>
+                            @endif
+                            <li>
+                                <a class="dropdown-item" href="{{ route('logout') }}"
+                                    onclick="event.preventDefault();
+                                                    document.getElementById('logout-form').submit();">
+                                    {{ __('Logout') }}
+                                </a>
+
+                                <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                    @csrf
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                @endif
             </div>
             <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Get Startted<i class="fa fa-arrow-right ms-3"></i></a>
         </div>
