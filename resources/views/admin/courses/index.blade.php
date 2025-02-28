@@ -17,7 +17,7 @@
                 <img src="{{$course->image}}" class="card-img-top" alt="">
                 <div class="card-body text-center">
                     <h5 class="card-title" style="color:#173282;">{{$course->name}}</h5>
-                    <p class="fw-light fst-italic">{{$course->category_id}}</p>
+                    <p class="fw-light fst-italic">{{$course->category_name}}</p>
                     <h4 class="text-primary">*** {{$course->price}} Ks ***</h4>
                     <p class="text-body-secondary fst-italic" style="font-size:13px">
                             <span class="pe-5 custom"><i class="fas fa-newspaper text-primary me-2" style="font-size:11px"></i> 2 Chapters</span>

@@ -13,12 +13,23 @@ class Enroll extends Model
     use softDeletes;
     protected $table='enrolls';
     protected $fillable=[
-      'name',
-      'phone',
-      'image',
+
+      'note',
+      'payment_slip',
       'status',
       'course_id',
       'payment_id',
-        
+      'user_id',
+
     ];
+
+
+    public function course() {
+      return $this->belongsTo(Course::class);
+  }
+
+  public function payment() {
+      return $this->belongsTo(Payment::class);
+  
+  }
 }

@@ -18,7 +18,9 @@ class PaymentFactory extends Factory
     {
         return [
             'name'=>$this->faker->word,
-            'image'=>$this->faker->imageUrl
+            'logo'=>$this->faker->imageUrl,
+            'account_name'=>$this->faker->word,
+            'account_number'=>$this->faker->ean8,
             
         ];
     }

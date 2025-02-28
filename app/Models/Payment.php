@@ -13,7 +13,9 @@ class Payment extends Model
     protected $table='payments';
     protected $fillable=[
         'name',
-        'image'
+        'logo',
+        'account_name',
+        'account_number',
         
     ];
 }

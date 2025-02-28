@@ -80,9 +80,11 @@
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6>
-                    <h1 class="mb-4">Welcome to eLEARNING</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <h1 class="mb-4">Welcome to tHE BEST Online Laearning Class</h1>
+                    <h3>What Makes the Best Online Learning Classes?</h3>
+                    <p class="mb-4">
+                    Online learning has become increasingly popular due to its flexibility, accessibility, and affordability. The best online learning classes stand out because they offer high-quality education, engaging content, and a user-friendly experience. </p>
+                    <p class="mb-4 text-dark">1. Flexibility and Convenience<br>2. Wide Range of Courses<br>3. High-Quality Content<br>4. Interactive and Engaging Learning Experience</p>
                     <div class="row gy-2 gx-4 mb-4">
                         <div class="col-sm-6">
                             <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Skilled Instructors</p>
@@ -103,7 +105,6 @@
                             <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>International Certificate</p>
                         </div>
                     </div>
-                    <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a>
                 </div>
             </div>
         </div>
@@ -132,7 +133,7 @@
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Instructor Name</h5>
+                            <h5 class="mb-0">Sr. Hein</h5>
                             <small>Designation</small>
                         </div>
                     </div>
@@ -150,7 +151,7 @@
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Instructor Name</h5>
+                            <h5 class="mb-0">Tr. Zion</h5>
                             <small>Designation</small>
                         </div>
                     </div>
@@ -168,7 +169,7 @@
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Instructor Name</h5>
+                            <h5 class="mb-0">Sr. Kyaw</h5>
                             <small>Designation</small>
                         </div>
                     </div>
@@ -186,7 +187,7 @@
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Instructor Name</h5>
+                            <h5 class="mb-0">Tr. Nann</h5>
                             <small>Designation</small>
                         </div>
                     </div>

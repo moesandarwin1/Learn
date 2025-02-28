@@ -30,12 +30,12 @@ class DatabaseSeeder extends Seeder
            // 'name' => 'Test User',
            // 'email' => 'test@example.com',
         //]);
-        Category::Factory(10)->create();
-        Payment::Factory(10)->create();
-        Course::Factory(10)->create();
-        Chapter::Factory(10)->create();
-        Lecture::Factory(10)->create();
-        Enroll::Factory(10)->create();
+        //Category::Factory(10)->create();
+        //Payment::Factory(10)->create();
+        //Course::Factory(10)->create();
+        //Chapter::Factory(10)->create();
+        //Lecture::Factory(10)->create();
+        //Enroll::Factory(10)->create();
 
 
         User::create([

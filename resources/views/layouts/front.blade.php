@@ -57,10 +57,10 @@
                 <a href="{{route('contact')}}" class="nav-item nav-link">Contact</a>
                 
                 @guest
-                    <a href="/login" class="btn mx-3">Login</a>
-                    <a href="/register" class="btn btn-dark">Register</a>
+                    <a href="/login" class="btn mt-3 text-dark">Login</a>
+                    <a href="/register" class="btn  mt-3 text-dark">Register</a>
                 @else
-                    <div class="dropdown mx-3">
+                    <div class="dropdown ">
                         <a href="#" class="text-decoration-none text-dark dropdown-toggle" data-bs-toggle="dropdown">
                             {{Auth::user()->name}}
                         </a>
@@ -89,7 +89,7 @@
                     </div>
                 @endif
             </div>
-            <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Get Startted<i class="fa fa-arrow-right ms-3"></i></a>
+            <a href="{{route('index')}}" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Get Startted<i class="fa fa-arrow-right ms-3"></i></a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -111,7 +111,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Contact</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, Mandalay</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+95 987835784</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>moe550120@gmail.com</p>
                     <div class="d-flex pt-2">

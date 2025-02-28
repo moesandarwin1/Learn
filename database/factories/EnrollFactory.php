@@ -17,13 +17,13 @@ class EnrollFactory extends Factory
     public function definition(): array
     {
         return [
-            'name'=>$this->faker->word,
-            'phone'=>$this->faker->phoneNumber,
-            'image'=>$this->faker->imageUrl,
+            'note'=>$this->faker->word,
+            'payment_slip'=>$this->faker->imageUrl,
             'status'=>$this->faker->word,
             'course_id'=>rand(1,10),
             'payment_id'=>rand(1,10),
-
+            'user_id'=>1,
         ];
+
     }
 }

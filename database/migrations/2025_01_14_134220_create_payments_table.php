@@ -14,7 +14,9 @@ return new class extends Migration
         Schema::create('payments', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('image');
+            $table->string('logo');
+            $table->string('account_name');
+            $table->string('account_number');
             $table->softDeletes();
             $table->timestamps();
         });

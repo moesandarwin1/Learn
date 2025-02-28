@@ -1,5 +1,5 @@
 @extends('layouts.front')
-@section
+@section('content')
 
   <main class="main">
 
@@ -40,7 +40,7 @@
 
             <div class="course-info d-flex justify-content-between align-items-center">
               <h5>Trainer</h5>
-              <p><a href="#">Walter White</a></p>
+              <p><a href="#">Sr. Hein</a></p>
             </div>
 
             <div class="course-info d-flex justify-content-between align-items-center">
@@ -58,7 +58,10 @@
               <p>5.00 pm - 7.00 pm</p>
             </div>
 
+            <a href="" class="btn btn-primary border ms-5 ps-5">Join Now</a>
+
           </div>
+          
         </div>
 
       </div>
