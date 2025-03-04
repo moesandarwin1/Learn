@@ -4,12 +4,12 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\softDeletes;
+use Illuminate\Database\Eloquent\soFtDeletes;
 
 class Chapter extends Model
 {
     use HasFactory;
-    use softDeletes;
+    use soFtDeletes;
     protected $table='chapters';
     protected $fillable=[
        'title',

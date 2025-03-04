@@ -2,7 +2,7 @@
 
 namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\softDeletes;
+use Illuminate\Database\Eloquent\soFtDeletes;
 
 
 use Illuminate\Database\Eloquent\Model;
@@ -10,7 +10,7 @@ use Illuminate\Database\Eloquent\Model;
 class Enroll extends Model
 {
     use HasFactory;
-    use softDeletes;
+    use soFtDeletes;
     protected $table='enrolls';
     protected $fillable=[
 
