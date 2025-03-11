@@ -339,34 +339,34 @@
             <div class="owl-carousel testimonial-carousel position-relative">
                 <div class="testimonial-item text-center">
                     <img class="border rounded-circle p-2 mx-auto mb-3" src="{{asset('front-assets/img/testimonial-1.jpg')}}" style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Client Name</h5>
+                    <h5 class="mb-0">Mabel</h5>
                     <p>Profession</p>
                     <div class="testimonial-text bg-light text-center p-4">
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    <p class="mb-0">The best online learning class was incredibly convenient, allowing me to study at my own pace and from the comfort of my home.</p>
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
                     <img class="border rounded-circle p-2 mx-auto mb-3" src="{{asset('front-assets/img/testimonial-2.jpg')}}" style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Client Name</h5>
+                    <h5 class="mb-0">Craig</h5>
                     <p>Profession</p>
                     <div class="testimonial-text bg-light text-center p-4">
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    <p class="mb-0">The course materials were well-organized and easy to access, making it simple to follow along with the lessons.</p>
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
                     <img class="border rounded-circle p-2 mx-auto mb-3" src="{{asset('front-assets/img/testimonial-3.jpg')}}" style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Client Name</h5>
+                    <h5 class="mb-0">Austin</h5>
                     <p>Profession</p>
                     <div class="testimonial-text bg-light text-center p-4">
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    <p class="mb-0">I appreciated the flexibility of the schedule, which allowed me to balance my studies with work and personal commitments.</p>
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
                     <img class="border rounded-circle p-2 mx-auto mb-3" src="{{asset('front-assets/img/testimonial-4.jpg')}}" style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Client Name</h5>
+                    <h5 class="mb-0">Scarlett</h5>
                     <p>Profession</p>
                     <div class="testimonial-text bg-light text-center p-4">
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    <p class="mb-0">The instructor was knowledgeable and responsive, providing clear explanations and timely feedback on assignments.</p>
                     </div>
                 </div>
             </div>
